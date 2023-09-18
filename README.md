@@ -2,7 +2,6 @@
 Rewatch Plus is a social network project initiative focused on unifying cinematic experiences between people, combining profiles to watch films together, express your opinions on the cinema and customize your profile however you want.
 <div align="center"> <img src="https://user-images.githubusercontent.com/107072146/268651552-8d1cd2c8-b6bf-4fb6-9f80-91d3f74631fe.png" /> </div>
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
