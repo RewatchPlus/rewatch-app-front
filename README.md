@@ -1,4 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About Us
+Rewatch Plus is a social network project initiative focused on unifying cinematic experiences between people, combining profiles to watch films together, express your opinions on the cinema and customize your profile however you want.
+<div align="center"> <img src="https://user-images.githubusercontent.com/107072146/268651552-8d1cd2c8-b6bf-4fb6-9f80-91d3f74631fe.png" /> </div>
+
 
 ## Getting Started
 
@@ -32,3 +35,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+<div align="center"> <img src="https://user-images.githubusercontent.com/107072146/268651977-5588f045-a27b-4984-b362-1670843cc022.png" /> </div>
