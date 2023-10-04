@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br" className="h-full scroll-smooth">
       <body className={montserrat.className + " h-full bg-offblack"}>
-        <header className="w-full flex items-center justify-center bg-gray mix-blend-multiply backdrop-blur-sm absolute">
+        <header className="w-full flex items-center justify-center bg-offblack mix-blend-plus-lighter shadow-lg backdrop-blur-sm absolute z-50">
           <Header/>
         </header>
         <BannerMain/>

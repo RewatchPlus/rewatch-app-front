@@ -18,6 +18,8 @@ const config: Config = {
       'offshade-purple': '#5B5B9B',
       'offwhite': '#D9D9D9',
       'offblack': '#232324',
+      'white': '#FFFFFF',
+      'transparent':'transparent',
     },
     extend: {
       backgroundImage: {
