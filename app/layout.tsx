@@ -1,8 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
+import Header from '../src/components/Header/Signin/Header';
 
-const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Rewatch",
@@ -16,9 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br" className="h-full scroll-smooth">
-      <body className={inter.className + " h-full"}>
-        <header className="flex items-center justify-center">
-          <div>Header</div>
+      <body className={montserrat.className + " h-full bg-offblack"}>
+        <header className="w-full flex items-center justify-center bg-gray bg-blend-multiply backdrop-blur-sm">
+          <Header/>
         </header>
         {children}
         <footer className="flex items-center justify-center">
