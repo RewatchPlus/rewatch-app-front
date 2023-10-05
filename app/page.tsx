@@ -1,4 +1,4 @@
-import Placeholder from "@/src/components/Carrossel/PLaceholder";
+import Placeholder from "@components/Carrossel/PLaceholder";
 
 export default function Home() {
   return (
