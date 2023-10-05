@@ -1,9 +1,21 @@
+import Placeholder from "@/src/components/Carrossel/PLaceholder";
+
 export default function Home() {
   return (
-    <main className="flex items-center justify-center h-full">
-      <h1 className="text-2xl hover:text-purple-600 duration-500 cursor-pointer">
-        Rewatch
-      </h1>
+    <main className="flex flex-row flex-wrap my-16 ml-14 items-start justify-start h-full">
+      <section className="flex flex-col w-full h-[300px]">
+        <h1 className="text-4xl text-purple uppercase font-bold duration-500 mb-6">
+          Week Top 10
+        </h1>
+        <Placeholder />
+      </section>
+
+      <section className="flex flex-col w-full h-[300px]">
+        <h1 className="text-4xl text-purple uppercase font-bold duration-500 mb-6">
+          In Cinema
+        </h1>
+        <Placeholder />
+      </section>
     </main>
   );
 }
