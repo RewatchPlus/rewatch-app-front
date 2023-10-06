@@ -2,6 +2,7 @@ import "@app/globals.css";
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import Header from '@components/Header/Signin/Header';
+import Footer from '@components/Footer/Footer';
 import BannerMain from "@components/Banner/BannerMain";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
@@ -24,8 +25,8 @@ export default function RootLayout({
         </header>
         <BannerMain/>
         {children}
-        <footer className="flex items-center justify-center">
-          <div>Footer</div>
+        <footer className="flex items-center justify-center relative">
+          <Footer/>
         </footer>
       </body>
     </html>
