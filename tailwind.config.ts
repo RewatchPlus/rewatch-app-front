@@ -20,6 +20,7 @@ const config: Config = {
       'offblack': '#232324',
       'white': '#FFFFFF',
       'transparent':'transparent',
+      'black50':'rgba(0, 0, 0, 0.50)',
     },
     extend: {
       backgroundImage: {
