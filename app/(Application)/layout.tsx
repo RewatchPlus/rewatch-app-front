@@ -21,12 +21,14 @@ export default function RootLayout({
     <html lang="pt-br" className="h-full scroll-smooth">
       <body className={montserrat.className + " h-full bg-offblack"}>
         <header className="w-full flex items-center justify-center bg-offblack mix-blend-plus-lighter shadow-lg backdrop-blur-sm absolute z-50">
-          <Header/>
+          <Header />
         </header>
-        <BannerMain/>
-        {children}
+        <BannerMain />
+        <div className="grow-1">
+          {children}
+        </div>
         <footer className="flex items-center justify-center relative">
-          <Footer/>
+          <Footer />
         </footer>
       </body>
     </html>

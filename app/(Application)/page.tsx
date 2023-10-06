@@ -1,4 +1,5 @@
 import Placeholder from "@components/Carrossel/PLaceholder";
+import Leaderboard from '@components/FollowUps/LeaderBoard';
 
 export default function Home() {
   return (
@@ -15,6 +16,13 @@ export default function Home() {
           In Cinema
         </h1>
         <Placeholder />
+      </section>
+
+      <section className="flex flex-col w-full h-[300px]">
+        <h1 className="text-4xl text-purple uppercase font-bold duration-500 mb-6">
+          Leaderboard
+        </h1>
+        <Leaderboard />
       </section>
     </main>
   );

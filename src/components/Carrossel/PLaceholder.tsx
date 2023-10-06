@@ -1,4 +1,4 @@
-import MovieCard from "./MovieCard";
+import MovieCard from "@components/Carrossel/MovieCard";
 
 export default function Placeholder() {
     return (
