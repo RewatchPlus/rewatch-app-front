@@ -1,5 +1,6 @@
 import Placeholder from "@components/Carrossel/PLaceholder";
 import Leaderboard from '@components/FollowUps/LeaderBoard';
+import Friendsboard from  '@components/FollowUps/FriendsBoard';
 
 export default function Home() {
   return (
@@ -23,6 +24,13 @@ export default function Home() {
           Leaderboard
         </h1>
         <Leaderboard />
+      </section>
+
+      <section className="flex flex-col w-full h-[300px]">
+        <h1 className="text-4xl text-purple uppercase font-bold duration-500 mb-6">
+          Friends Recommendantions
+        </h1>
+        <Friendsboard />
       </section>
     </main>
   );

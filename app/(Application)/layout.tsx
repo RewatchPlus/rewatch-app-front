@@ -24,7 +24,7 @@ export default function RootLayout({
           <Header />
         </header>
         <BannerMain />
-        <div className="grow-1">
+        <div className="grow-1 pb-10">
           {children}
         </div>
         <footer className="flex items-center justify-center relative">
