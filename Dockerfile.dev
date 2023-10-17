@@ -1,0 +1,17 @@
+FROM node:20.8.1-alpine3.17@sha256:5ea2089ccb0605b9ac2cfce0841c28963d7f8addf040dd669c2a07fb89f5c90f
+
+WORKDIR /var/www/html/rewatch/app
+
+ARG YARN_VERSION=1.22.19
+RUN npm --global --force install yarn@${YARN_VERSION}
+
+COPY package.json ./
+COPY yarn.lock ./
+
+RUN yarn
+
+USER node
+
+EXPOSE 3002
+
+CMD [ "yarn", "dev" ]
