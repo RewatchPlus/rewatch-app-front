@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import React from 'react';
+import search from '@assets/icons/search.svg'
 
 export default function BannerMain() {
    return (
@@ -14,7 +16,13 @@ export default function BannerMain() {
                      className="h-10 rounded-l-2xl px-3 text-offblack flex-grow bg-transparent focus:border-0"
                   />
                   <button className="border-0 rounded-r-2xl flex justify-center items-center bg-blue w-14">
-                     <img src="/icons/search.svg" alt="Search" />
+                     <Image
+                        src={search}
+                        alt="Search"
+                        width={25}
+                        loading='lazy'
+                        height={25}
+                     />
                   </button>
                </form>
             </div>

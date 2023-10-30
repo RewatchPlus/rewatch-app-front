@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start -p 3002",
     "lint": "next lint",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\" \"app/**/*.ts\" \"app/**/*.tsx\" "
+    "format": "prettier --write \"src/**/*.{ts, tsx}\" \"app/**/*.{ts, tsx}\""
   },
   "dependencies": {
     "@types/node": "20.6.2",

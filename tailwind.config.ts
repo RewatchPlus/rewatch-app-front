@@ -24,8 +24,8 @@ const config: Config = {
     },
     extend: {
       backgroundImage: {
-        'eeaobanner': "url('/images/banners/mainbanner.png')",
-        'cardph': "url('/images/placeholders/MovieCardPh.jpg')",
+        'eeaobanner': "url('/images/banners/main_banner.png')",
+        'cardph': "url('/images/placeholders/movie_card_black_white.jpg')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',

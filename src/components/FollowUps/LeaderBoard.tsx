@@ -1,4 +1,9 @@
 import Leaders from '@components/FollowUps/Leaders';
+import Image from 'next/image';
+import medalCooper from '@assets/icons/medalha-de-bronze.svg'
+import medalSilver from '@assets/icons/medalha-de-prata.svg'
+import medalGold from '@assets/icons/medalha-de-ouro.svg'
+import arrowRight from '@assets/icons/arrow_right.svg';
 
 export default function Section() {
    return (
@@ -13,24 +18,33 @@ export default function Section() {
                   className=" h-auto md:h-[300px] flex w-full grow-1 justify-center"
                >
                   <div id="first" className="static">
-                     <img
-                        src="/icons/medalha-de-ouro.svg"
+                     <Image
+                        width={50}
+                        height={50}
+                        loading='lazy'
+                        src={medalGold}
                         alt="top1"
                         className="absolute -z-10 mx-[60px] mt-56"
                      />
                      <Leaders />
                   </div>
                   <div id="second" className="static">
-                     <img
-                        src="/icons/medalha-de-prata.svg"
+                     <Image
+                        width={50}
+                        height={50}
+                        loading='lazy'
+                        src={medalSilver}
                         alt="top1"
                         className="absolute -z-10 mx-[60px] mt-56"
                      />
                      <Leaders />
                   </div>
                   <div id="third" className="static">
-                     <img
-                        src="/icons/medalha-de-bronze.svg"
+                     <Image
+                        width={50}
+                        height={50}
+                        loading='lazy'
+                        src={medalCooper}
                         alt="top1"
                         className="absolute -z-10 mx-[60px] mt-56"
                      />
@@ -39,9 +53,12 @@ export default function Section() {
                </div>
             </div>
             <div className="w-2/12 flex items-center">
-               <img
-                  src="/icons/arrow_right.svg"
+               <Image
+                  src={arrowRight}
                   alt=">"
+                  width={50}
+                  height={50}
+                  loading='lazy'
                   className="hover:scale-125 duration-500 hover:cursor-pointer"
                />
             </div>

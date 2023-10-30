@@ -1,4 +1,6 @@
 import Rec from '@components/FollowUps/Recommend';
+import Image from 'next/image';
+import arrowRight from '@assets/icons/arrow_right.svg'
 
 export default function Section() {
    return (
@@ -21,13 +23,16 @@ export default function Section() {
                   <Rec />
                </div>
             </div>
-            <div className="md:w-4/12 flex items-center">
+            <div className="md:w-4/12 ml-2 flex items-center">
                <p className="uppercase text-purple text-2xl font-bold">
                   Show More
                </p>
-               <img
-                  src="/icons/arrow_right.svg"
+               <Image
+                  src={arrowRight}
                   alt=">"
+                  width={50}
+                  height={50}
+                  loading='lazy'
                   className="hover:scale-125 duration-500 hover:cursor-pointer"
                />
             </div>

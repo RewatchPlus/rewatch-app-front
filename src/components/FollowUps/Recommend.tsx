@@ -1,3 +1,6 @@
+import IconPlaceHolder from '@assets/icons/placeholder/icon_placeholder.png';
+import Image from 'next/image';
+import MovieCardImage from '@assets/images/placeholders/movie_card_black_white.jpg';
 export default function Rec() {
    return (
       <main className="h-auto md:h-[300px] flex w-full ">
@@ -60,8 +63,12 @@ export default function Rec() {
                         <p> ★★★★☆ </p>
                      </div>
                      <div className=" w-[93px] h-[93px] rounded-full select-none">
-                        <img
-                           src="/images/placeholders/IconPh.png"
+                        <Image
+                           src={IconPlaceHolder}
+                           width={50}
+                           height={50}
+                           loading='lazy'
+                           alt='icon place holder'
                            className="rounded-full object-cover"
                         />
                      </div>
@@ -69,8 +76,12 @@ export default function Rec() {
                </div>
             </div>
             <div className="h-[282px] w-[175px] ml-8">
-               <img
-                  src="/images/placeholders/MovieCardPh.jpg"
+               <Image
+                  src={MovieCardImage}
+                  width={200}
+                  height={300}
+                  loading='lazy'
+                  alt='movie thumb'
                   className="object-cover h-full"
                />
             </div>
